@@ -15,16 +15,13 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.white,
       appBar: customAppbar(),
       body: Column(
-        children: [
-
-        ],
+        children: [],
       ),
     );
   }
 }
-notice(){
-  
-}
+
+notice() {}
 
 customAppbar() {
   return AppBar(
@@ -43,7 +40,7 @@ customAppbar() {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: const [
           Text(
-            '11 AUG',
+            '12 AUG',
             style: TextStyle(
                 fontSize: 12, color: Color(0xff838383), fontFamily: 'Regular'),
           ),
